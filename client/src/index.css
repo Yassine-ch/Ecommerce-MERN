@@ -11,15 +11,21 @@
 
 /* //navbar css */
 .navbar {
+  border: 2px solid #0dcaf0;
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   line-height: 26px;
+  background-color:#434343 ;
   text-transform: uppercase;
-  box-shadow: 0 8px 6px -6px gray;
-  --webkit-box-shadow: 0 8px 6px -6px gray;
-  border-bottom: solid gray !important;
+  box-shadow: 0 8px 6px -6px #0dcaf0;
+  --webkit-box-shadow: 0 8px 6px -6px #0dcaf0;
+  border-bottom: solid #0dcaf0 !important;
+  padding:20px;
+  margin-bottom: 10px;
 }
-
+.custom-navbar-color {
+  background-color: #8c8c8c; /* Replace this with your desired color code */
+}
 .nav-link {
   font-weight: 300 !important;
 }
@@ -43,24 +49,34 @@
   border-radius: 0;
 }
 .search-form button {
-  background-color: #000000;
+  background-color: #0dcaf0;
   border-radius: 0;
   color: white;
 }
+.search-form button:hover {
+  background-color: black;
+  border-radius: 0;
+  color: white;
+}
+
+
 
 /* =============================
 ==========footer============= */
 
 .footer {
   color: white;
+  border: 1px solid #0dcaf0;
   padding: 25px;
-  background: #000000; /* fallback for old browsers */
+  /* background:black;  */
+  /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #434343,
     #000000
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000);
+  );
+   /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #434343, white); 
 }
 
 .footer a {
@@ -70,7 +86,7 @@
 }
 
 .footer a:hover {
-  color: #ffefba;
+  color: #0dcaf0;
   border-bottom: 1px solid #ffefba;
 }
 /* =================================
