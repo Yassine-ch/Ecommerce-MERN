@@ -182,13 +182,12 @@ const CartPage = () => {
                       onInstance={(instance) => setInstance(instance)}
                     />
 
-                    <button
+                    <buttons
                       className="btn btn-primary"
                       onClick={handlePayment}
-                      disabled={loading || !instance || !auth?.user?.address}
-                    >
-                      {loading ? "Processing ...." : "Make Payment"}
-                    </button>
+                      disabled={loading || !instance || !auth?.user?.address}>
+                      {/* {loading ? "Processing ...." : "Make Payment"}*/}Make Pyment</buttons> 
+                   
                   </>
                 )}
               </div>

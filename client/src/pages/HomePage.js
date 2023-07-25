@@ -110,7 +110,7 @@ const HomePage = () => {
     <Layout title={"ALl Products - Best offers "}>
       {/* banner image */}
       <img
-        src="/images/ecoBanner.png"
+        src="/images/SHOP_Banner.png"
         className="banner-img"
         alt="bannerimage"
         width={"100%"}
@@ -118,7 +118,7 @@ const HomePage = () => {
       />
       {/* banner image */}
       <div className="container-fluid row mt-3 home-page">
-        <div className="col-md-3 filters">
+        <div className="col-md-2 filters" id="CatFilter">
           <h4 className="text-center">Filter By Category</h4>
           <div className="d-flex flex-column">
             {categories?.map((c) => (
