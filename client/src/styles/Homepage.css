@@ -76,10 +76,7 @@ filters
 }
 .filters button:hover {
   background-color: #0dcaf0;
-  width: 100%;
-  border:1px solid black;
-  border-radius: 10px;
-  margin-top: 20px;
+
 }
 #CatFilter{
   border-radius: 5px;
