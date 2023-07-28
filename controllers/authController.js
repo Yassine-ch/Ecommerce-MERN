@@ -23,9 +23,9 @@ export const registerController = async (req, res) => {
     if (!address) {
       return res.send({ message: "Address is Required" });
     }
-    if (!answer) {
-      return res.send({ message: "Answer is Required" });
-    }
+    // if (!answer) {
+    //   return res.send({ message: "Answer is Required" });
+    // }
     //check user
     const exisitingUser = await userModel.findOne({ email });
     //exisiting user
